@@ -1,10 +1,7 @@
-//
-//  Playground.h
-//  FightingSprites
-//
-//  Created by John Pavley on 11/30/11.
-//  Copyright 2011 Spotify. All rights reserved.
-//
+/*
+ * Playgound.m
+ * By John Pavley
+ */
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"

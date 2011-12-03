@@ -3,7 +3,6 @@
 //  SpritePlayground
 //
 //  Created by John Pavley on 12/2/11.
-//  Copyright Spotify 2011. All rights reserved.
 //
 
 #ifndef __GAME_CONFIG_H

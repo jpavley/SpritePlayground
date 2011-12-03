@@ -1,7 +1,6 @@
 /*
  * Playgound.m
  * By John Pavley
- * All rights reserved.
  */
 
 #import "Playground.h"
