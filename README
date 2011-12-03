@@ -1,0 +1,13 @@
+SpritePlayground is a simple bit of Cocos2d-iPhone 1.0.1 exmaple code that shows you how to do
+the following:
+1. Create a "composite sprite" (a sprite made of multiple CCSprites with a parent CCNode)
+2. Respond to touches
+3. Rotate a sprite to face an arbitrary point on the screen
+4. Instansiate a custom partical system (created via Particle Designer)
+5. Use CCSequence and CCEase actions to move a sprite around the screen
+
+This code is provided free and open source.
+The sprite's graphic image is copyright John Pavley. All rights reserved.
+(So just replace it with your own.)
+
+
