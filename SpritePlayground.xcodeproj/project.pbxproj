@@ -121,8 +121,10 @@
 		B8245D4B1489CDDB0045FF31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8245D4A1489CDDB0045FF31 /* main.m */; };
 		B8245D4E1489CDDB0045FF31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8245D4D1489CDDB0045FF31 /* AppDelegate.m */; };
 		B8245D511489CDDB0045FF31 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8245D501489CDDB0045FF31 /* RootViewController.m */; };
-		B8245D541489CDDB0045FF31 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8245D531489CDDB0045FF31 /* HelloWorldLayer.m */; };
 		B8245D5C1489D1DF0045FF31 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B8245D5B1489D1DF0045FF31 /* README */; };
+		B8245EC61489D4150045FF31 /* Playground.m in Sources */ = {isa = PBXBuildFile; fileRef = B8245EC51489D4150045FF31 /* Playground.m */; };
+		B8245EC91489D42F0045FF31 /* avatar_n1_tang.png in Resources */ = {isa = PBXBuildFile; fileRef = B8245EC71489D42F0045FF31 /* avatar_n1_tang.png */; };
+		B8245ECA1489D42F0045FF31 /* fireball_small_fast_green.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8245EC81489D42F0045FF31 /* fireball_small_fast_green.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -358,10 +360,12 @@
 		B8245D4D1489CDDB0045FF31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B8245D4F1489CDDB0045FF31 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		B8245D501489CDDB0045FF31 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		B8245D521489CDDB0045FF31 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		B8245D531489CDDB0045FF31 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		B8245D551489CDDB0045FF31 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		B8245D5B1489D1DF0045FF31 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B8245EC41489D4150045FF31 /* Playground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playground.h; sourceTree = "<group>"; };
+		B8245EC51489D4150045FF31 /* Playground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playground.m; sourceTree = "<group>"; };
+		B8245EC71489D42F0045FF31 /* avatar_n1_tang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_n1_tang.png; sourceTree = "<group>"; };
+		B8245EC81489D42F0045FF31 /* fireball_small_fast_green.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fireball_small_fast_green.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,12 +423,12 @@
 		B8245BFA1489CDD70045FF31 /* SpritePlayground */ = {
 			isa = PBXGroup;
 			children = (
+				B8245EC41489D4150045FF31 /* Playground.h */,
+				B8245EC51489D4150045FF31 /* Playground.m */,
 				B8245D4C1489CDDB0045FF31 /* AppDelegate.h */,
 				B8245D4D1489CDDB0045FF31 /* AppDelegate.m */,
 				B8245D4F1489CDDB0045FF31 /* RootViewController.h */,
 				B8245D501489CDDB0045FF31 /* RootViewController.m */,
-				B8245D521489CDDB0045FF31 /* HelloWorldLayer.h */,
-				B8245D531489CDDB0045FF31 /* HelloWorldLayer.m */,
 				B8245D551489CDDB0045FF31 /* GameConfig.h */,
 				B8245BFB1489CDD70045FF31 /* Resources */,
 				B8245C0F1489CDD70045FF31 /* libs */,
@@ -436,6 +440,8 @@
 		B8245BFB1489CDD70045FF31 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B8245EC71489D42F0045FF31 /* avatar_n1_tang.png */,
+				B8245EC81489D42F0045FF31 /* fireball_small_fast_green.plist */,
 				B8245BFC1489CDD70045FF31 /* Default.png */,
 				B8245BFE1489CDD70045FF31 /* fps_images.png */,
 				B8245C001489CDD70045FF31 /* Icon-72.png */,
@@ -822,6 +828,8 @@
 				B8245C0B1489CDD70045FF31 /* Icon@2x.png in Resources */,
 				B8245C0E1489CDD70045FF31 /* iTunesArtwork in Resources */,
 				B8245D5C1489D1DF0045FF31 /* README in Resources */,
+				B8245EC91489D42F0045FF31 /* avatar_n1_tang.png in Resources */,
+				B8245ECA1489D42F0045FF31 /* fireball_small_fast_green.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,7 +937,7 @@
 				B8245D4B1489CDDB0045FF31 /* main.m in Sources */,
 				B8245D4E1489CDDB0045FF31 /* AppDelegate.m in Sources */,
 				B8245D511489CDDB0045FF31 /* RootViewController.m in Sources */,
-				B8245D541489CDDB0045FF31 /* HelloWorldLayer.m in Sources */,
+				B8245EC61489D4150045FF31 /* Playground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
